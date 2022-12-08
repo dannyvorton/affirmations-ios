@@ -10,8 +10,6 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack {
-
-            Spacer()
             
 // PRESS BUTTON TO UPDATE AFFIRMATIONS
             Button(action: {
@@ -50,16 +48,17 @@ struct ContentView: View {
                         .stroke(lineWidth: 2.0)
                 )
             }
-
-            Spacer()
             
         }
         .padding()
     }
 }
 
+// SYSTEM LIGHT OR DARK MODE
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ForEach(ColorScheme.allCases, id: \.self) {
+            ContentView().preferredColorScheme($0)
+        }
     }
 }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30BC805A29790A1C00D43EB7 /* affirmationsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30BC805929790A1C00D43EB7 /* affirmationsList.swift */; };
 		30DD6A102907935E00BB3746 /* affirmationsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DD6A0F2907935E00BB3746 /* affirmationsApp.swift */; };
 		30DD6A122907935E00BB3746 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30DD6A112907935E00BB3746 /* ContentView.swift */; };
 		30DD6A142907935F00BB3746 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30DD6A132907935F00BB3746 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		30BC805929790A1C00D43EB7 /* affirmationsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = affirmationsList.swift; sourceTree = "<group>"; };
 		30DD6A0C2907935E00BB3746 /* affirmations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = affirmations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		30DD6A0F2907935E00BB3746 /* affirmationsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = affirmationsApp.swift; sourceTree = "<group>"; };
 		30DD6A112907935E00BB3746 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				30DD6A0F2907935E00BB3746 /* affirmationsApp.swift */,
+				30BC805929790A1C00D43EB7 /* affirmationsList.swift */,
 				30DD6A112907935E00BB3746 /* ContentView.swift */,
 				30DD6A132907935F00BB3746 /* Assets.xcassets */,
 				30DD6A152907935F00BB3746 /* Preview Content */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30BC805A29790A1C00D43EB7 /* affirmationsList.swift in Sources */,
 				30DD6A122907935E00BB3746 /* ContentView.swift in Sources */,
 				30DD6A102907935E00BB3746 /* affirmationsApp.swift in Sources */,
 			);

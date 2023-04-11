@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  affirmations
 //
-//  Created by Dan Orton on 10/24/22.
+//  Created by Danny Orton on 10/24/22.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             
-// PRESS BUTTON TO UPDATE AFFIRMATIONS
+            // PRESS BUTTON TO UPDATE AFFIRMATIONS
             Button(action: {
                 print("Button action")
             }) {
@@ -27,15 +27,12 @@ struct ContentView: View {
             
             Spacer()
             
-// DISPLAY AFFIRMATION
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, World!")
-
+            // DISPLAY AFFIRMATION
+/*            Text("\(affirmArray)") */
+            
             Spacer()
             
-// PRESS BUTTON TO SHOW AFFIRMATION
+            // PRESS BUTTON TO SHOW AFFIRMATION
             Button (action: {
                 print("Button action")
             }) {
@@ -48,7 +45,6 @@ struct ContentView: View {
                         .stroke(lineWidth: 2.0)
                 )
             }
-            
         }
         .padding()
     }

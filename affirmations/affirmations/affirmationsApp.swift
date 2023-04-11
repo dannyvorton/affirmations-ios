@@ -2,7 +2,7 @@
 //  affirmationsApp.swift
 //  affirmations
 //
-//  Created by Dan Orton on 10/24/22.
+//  Created by Danny Orton on 10/24/22.
 //
 
 import SwiftUI

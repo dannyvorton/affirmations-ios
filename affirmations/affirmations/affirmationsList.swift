@@ -10,19 +10,19 @@
 import Foundation
 
 // CREATE AN EMPTY SET
-var affirm: Set = ["wonderful", "amazing"]
+var affirm: Set<String> = []
 
 /*
 // ADD AN ELEMENT TO A SET
-affirm.append("Apple")
+affirm.insert("Apple")
 
 // REMOVE AN ELEMENT FROM A SET
-affirm.remove(at: 0)
+affirm.remove("Apple")
 */
  
 // PRINT SET
-if var affirmArray = affirm.randomElement() {
-    print(affirmArray)
+if var affirmSet = affirm.randomElement() {
+    print(affirmSet)
 } else {
     print("Please add affirmations")
 }

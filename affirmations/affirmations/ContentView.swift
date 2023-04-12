@@ -50,11 +50,8 @@ struct ContentView: View {
     }
 }
 
-// SYSTEM LIGHT OR DARK MODE
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ForEach(ColorScheme.allCases, id: \.self) {
-            ContentView().preferredColorScheme($0)
-        }
+        ContentView()
     }
 }

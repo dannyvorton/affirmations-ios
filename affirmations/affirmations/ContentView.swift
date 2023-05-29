@@ -13,7 +13,7 @@ struct ContentView: View {
             
             // PRESS BUTTON TO UPDATE AFFIRMATIONS
             Button(action: {
-                print("Button action")
+                print("Update Affirmations")
             }) {
                 HStack {
                     Text("Update Affirmations")
@@ -34,7 +34,7 @@ struct ContentView: View {
             
             // PRESS BUTTON TO SHOW AFFIRMATION
             Button (action: {
-                print("Button action")
+                print("I'm too....")
             }) {
                 HStack {
                     Text("I'm Too...")
